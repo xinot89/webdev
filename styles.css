@@ -1,0 +1,72 @@
+body {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    }  
+
+header {
+    background-color: rgb(188, 236, 212);
+    color: rgb(48, 8, 8);
+    font-size: large;
+}
+
+nav {
+    background-color: oldlace;
+    border-style:groove;
+    margin: 0;
+    font-size: larger;
+    }
+nav a:hover {
+    color:rgb(255, 0, 0);
+}
+.vertikaalinavigaatio {
+    background-color: rgb(245, 12, 12);
+    position: fixed;
+    border-style: none;
+    float: left;
+    display: block;
+    width: 7em;
+    background-color: aliceblue;
+}
+.contentmass {
+    word-wrap: normal;
+    overflow: visible;
+    margin-left: 9em;
+}
+
+#float_container {
+background-color: bisque;
+height:max-content;
+min-height: 300px;
+overflow:auto;
+}
+section {
+    background-color: rgb(203, 236, 236);
+    border-style: dotted;
+    border-radius: 10px;
+    width: 70%;
+    color: black;
+    font-size: large;
+}
+aside {
+    background-color: rgb(195, 240, 225);
+    float: right;
+    border-style: dotted;
+    width: 26%;
+    min-height: 100px;
+    word-wrap: normal;
+    border-radius: 10px;
+    font-size: large;
+}
+article {
+    background-color: rgb(189, 165, 211);
+    border-style: dotted;
+    width:70%;
+    border-radius: 10px;
+    font-size: large;
+}
+footer {
+    background-color: rgb(171, 199, 199);
+    border-style: dotted;
+
+}
